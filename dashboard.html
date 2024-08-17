@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <h1>Dashboard</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="signout.html">Sign Out</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Welcome, <span id="username"></span>!</h2>
+        <button id="createPost">Create New Post</button>
+        <div id="posts">
+            
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Blogging Website</p>
+    </footer>
+    <script type="module" src="firebase-config.mjs"></script>
+    <script type="module" src="dashboard.mjs"></script>
+</body>
+</html>
